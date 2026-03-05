@@ -1,7 +1,7 @@
 
 
 const CONFIG = {
-    personName: "JKAA",
+    valentineName: "JKAA",
 
     // The title that appears in the browser tab
     // You can use emojis!
@@ -20,12 +20,26 @@ const CONFIG = {
         first: {
             text: "Godtar du min ursäkt?",                                    // First interaction
             yesBtn: "Nej",                                             // Text for "Yes" button
-            noBtn: "Nej, fast argt",                                               // Text for "No" button
+            noBtn: "Nej, fast argt!",                                               // Text for "No" button
             secretAnswer: "Ja, hur kan jag ens vara arg längre!"           // Secret hover message
         },
-       
+        second: {
+        text: "Hur mycket godtar du ursäkten?",          // Second question
+        startText: "Så pass!",                   // Text before percentage
+        nextBtn: "Nästa!"                         // Next button text
     },
-
+    third: {
+        text: "Menar du verkligen det?",      // Final question
+        yesBtn: "Självfallet, utan tvekan!",                            // Yes button text
+        noBtn: "Na, dro akam"                                // No button text
+      }
+    },
+    
+    loveMessages: {
+    extreme: "Bawkarooo 🚀🚀😱",  // Shows above 5000%
+    high: "Mycket bra! 🌟",              // Shows above 1000%
+    normal: "la hich bashtra 👍"                           // Shows above 100%
+},
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Hazar Mashallah! 🎉",
@@ -33,6 +47,7 @@ const CONFIG = {
         emojis: "🎁🐩🎉🌻😃🌟😂"  // These will bounce around
     },
 
+    
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
